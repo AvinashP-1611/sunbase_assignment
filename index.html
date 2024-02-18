@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <login id="login" class="loginPage">
+        <h1>Login Page</h1>
+        <input type="text" id="username" placeholder="username">
+        <input type="text" id="password" placeholder="password">
+        <button id="loginBtn" class="btn">login</button>
+    </login>
+
+    <welcome class="welcome">
+        <!-- <div>
+            <h1>Welcome</h1>
+            <button id="details" class="btn">Customer Details</button>
+        </div>  -->
+    </welcome>
+
+
+    <main id="main" class="customerList">
+       
+        <!-- create dynamically -->
+    </main>
+    <section id="customer" class="addCustomers">
+        <h1>Add customer</h1>
+        <input id="fname" type="text" placeholder="First Name">
+        <input id="lname" type="text" placeholder="Last Name"><br>
+        <input id="street" type="text" placeholder="Street">
+        <input id="address" type="text" placeholder="Address"><br>
+        <input id="city" type="text" placeholder="City">
+        <input id="state" type="text" placeholder="State"><br>
+        <input id="email" type="text" placeholder="Email">
+        <input id="phone" type="text" placeholder="Phone"><br>
+        <button id="customerBtn" class="btn">Submit</button>
+    </section>
+
+    <Search id="response"></Search>
+    <script src="./script.js"></script>
+</body>
+</html>
