@@ -196,17 +196,11 @@ function deleteElement(e){
     },
     body:null
 
-  }).then(response => {
-    return response.json();
   })
   .then(data => {
     main.innerHTML="";
     customerDetails();
   })
-
-
-
-  console.log("Automatically call")
 
 }
 
